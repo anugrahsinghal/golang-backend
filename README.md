@@ -2,6 +2,13 @@
 
 My first experience with golang.
 
+## Running Instructions
+> Needs go 1.18
+1. `go build`
+2. `./http_server_golang`
+
+
+
 The project uses a CRUD app which lets you
 ## Operations for Users
 - Create User - `POST /users`
