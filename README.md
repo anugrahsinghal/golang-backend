@@ -13,7 +13,7 @@ curl localhost:8080/users -i -X POST -H 'Content-Type: application/json' -d '{  
     "age": 18
 }'
 ```
-- GET /users
+- Get User `GET /users`
 ```
 curl localhost:8080/users/{user_email}
 ```
@@ -26,7 +26,7 @@ curl 'localhost:8080/users/test@example.com' -i -X PUT -H 'Content-Type: applica
     "age": 18
 }'
 ```
-- Delete User - `DELETE /users/{user_email}
+- Delete User - `DELETE /users/{user_email}`
 ```
 curl -X DELETE localhost:8080/users/{user_email}
 ```
